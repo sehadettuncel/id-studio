@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <title>Id Studio</title>
+</head>
+
+<body>
+    <header>
+        <div class="left-header">
+            <a href="#" class="logo">
+                <img src="/assets/logo.svg" alt="">
+            </a>
+            <nav class="navbar">
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#pricing">Pricing</a>
+            </nav>
+        </div>
+
+        <input type="checkbox" id="toggler">
+        <label for="toggler" class="fa fa-bars"></label>
+    </header>
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>We create your space better</h3>
+                <p>Our team creates comfortable spaces for our clients. We’ve been designing your everyday life and work
+                    through great ideas since 1999.</p>
+                <a href="#" class="btn">GET STARTED</a>
+            </div>
+            <div class="photo">
+                <img src="/assets/home.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="about" id="about">
+         <h1 class="heading">about <span>studio</span> </h1>
+         <p>Interiart is an award-winning architecture and interior design practice based in NYC. We work
+                internationally on projects of residential & commercial interior design that require a creative approach.
+                Our talented and experienced designers leverage their knowledge and expertise to create unique and
+                comfortable interiors for you. <span id="dots">...</span>  <span id="more">
+                <br><br><br> Our team knows that interior design can be stressful for the client and we do our best to make it as easy as
+                possible. We listen to your needs, ideas, and inputs. And most importantly, we make it exciting and
+                enjoyable for our clients.
+                </span>
+        </p>
+        <button onclick="myFunction()" id="myBtn">READ MORE</button>
+        </div>
+        <section class="services" id="services">
+            <h1 class="heading">our <span>services</span></h1>
+            <div class="box-container">
+                <div class="box border-bottom">
+                    <a class="icon"><img src="/assets/photo/i-design.svg" alt=""></a>
+                    <a href="#"><h3>INTERIOR DESIGN</h3></a>
+                    <p>
+                        Interior design services offer a vast variety of solutions for our clients’ homes and offices.</p>
+                </div>
+                <div class="box border-bottom"> 
+                    <a class="icon dec "><img src="/assets/photo/d-services.svg" alt=""></a>
+                    <a href="#"><h3>DECORATIVE SERVICES</h3></a>
+                    <p>
+                        Our professional decorators will be happy to help you change your house’s inner look.</p>
+                </div>
+                <div class="box  border-bottom">
+                    <a class="icon"><img src="/assets/photo/s-planning.svg" alt=""></a>
+                    <a href="#"><h3>SPACE PLANNING</h3></a>
+                    <p>
+                        We create better interior experiences through our space planning services.</p>
+                </div>
+                <div class="box">
+                    <a class="icon pro "><img src="/assets/photo/p-management.svg" alt=""></a>
+                   <a href="#"> <h3>PROJECT MANAGEMENT</h3></a>
+                    <p>
+                        We provide proper project management as it’s one of the main success factors in interior design.</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h1 class="heading">our <span>portfolio</span></h1>
+            <div class="column">
+                <div class="row">
+                    <a href="#all">ALL</a>
+                    <a href="#comerical">COMERICAL</a>
+                    <a href="#residental">RESIDENTIAL</a>
+                    <a href="#office">OFFICE</a>
+                    <a href="#other">OTHER</a>
+                    <a href="#" class="view">VIEW MORE</a>
+                </div>
+                <div class="box-container">
+                     <div class="box"><img src="/assets/photo/Rectangle-6.png" alt=""></div>
+                    <div class="box"> <img src="/assets/photo/Rectangle-7.png" alt=""></div>
+                    <div class="box"> <img src="/assets/photo/Rectangle-8.png" alt=""></div>
+                    <div class="box"> <img src="/assets/photo/Rectangle-9.png" alt=""></div>
+                     <div class="box"><img src="/assets/photo/Rectangle-10.png" alt=""></div>
+                    <div class="box"> <img src="/assets/photo/Rectangle-11.png" alt=""></div>
+                     <div class="box"><img src="/assets/photo/Rectangle-12.png" alt=""></div>
+                     <div class="box"><img src="/assets/photo/Rectangle-13.png" alt=""> </div>
+                        
+                   
+                </div>
+            </div>
+        </section>
+        <section class="pricing" id="pricing">
+            <h1 class="heading">our <span>pricing</span> </h1>
+            <div class="box-container">
+                <div class="box">
+                    <h3>Basic</h3>
+                    <div class="price">$25</div>
+                    <p>per month</p>
+                    <div class="line"></div>
+                    <h5>interior desing</h5>
+                    <h5>project discussion</h5>
+                    <h5>space planning</h5>
+                    <h5>online concultation</h5>
+                    <div class="btn buy">BUY NOW</div>
+                </div>
+                <div class="box standart">
+                    <h3>Standart</h3>
+                    <div class="price">$50</div>
+                    <p></p>
+                    <h5>color analysis</h5>
+                    <h5>space planning</h5>
+                    <h5>home remodeling</h5>
+                    <h5>3D interior model</h5>
+                    <div class="btn buy">BUY NOW</div>
+                </div>
+                <div class="box">
+                    <h3>Premium</h3>
+                    <div class="price">$80</div>
+                    <p>per month</p>
+                    <h5>concept development</h5>
+                    <h5>decoration services</h5>
+                    <h5>inderior architecture</h5>
+                    <h5>online concultation</h5>
+                    <div class="btn buy">BUY NOW</div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="people-say" id="testimonials">
+            <h1 class="heading">what <span>people say</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <div class="column">
+                        <div class="row">
+                            <img src="/assets/photo/people-1.png" alt="">
+                            <div class="cl-info">
+                                <h3>Annette Black</h3>
+                                <p>Merchandising Associate</p>
+                                <div class="row-social">
+                                    <img src="/assets/photo/twitter.svg" alt="">
+                                    <img src="/assets/photo/linkedin.svg" alt="">
+                                    <img src="/assets/photo/facebook.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <p>Convallis non proin ac bibendum. At pharetra sed ultrices semper. Lectus et ornare ultrices urna in. Id non fringilla dignissim ac risus amet eget egestas vestibulum. Aliquet etiam eget nulla nulla odio vel.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="column">
+                        <div class="row">
+                            <img src="/assets/photo/people-2.png" alt="">
+                            <div class="cl-info">
+                                <h3>Marvin McKinney</h3>
+                                <p>Administrator</p>
+                                <div class="row-social">
+                                    <img src="/assets/photo/twitter.svg" alt="">
+                                    <img src="/assets/photo/linkedin.svg" alt="">
+                                    <img src="/assets/photo/facebook.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <p>Leo viverra vestibulum amet, scelerisque. Vitae, ultrices mi rhoncus porttitor nulla sed sodales. Curabitur tellus massa, lacinia non at. Lacus, hac fermentum, viverra tortor, eget. Eget egestas eget ultrices vitae.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="column">
+                        <div class="row">
+                            <img src="/assets/photo/people-1.png" alt="">
+                            <div class="cl-info">
+                                <h3>Annette Black</h3>
+                                <p>Merchandising Associate</p>
+                                <div class="row-social">
+                                    <img src="/assets/photo/twitter.svg" alt="">
+                                    <img src="/assets/photo/linkedin.svg" alt="">
+                                    <img src="/assets/photo/facebook.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <p>Convallis non proin ac bibendum. At pharetra sed ultrices semper. Lectus et ornare ultrices urna in. Id non fringilla dignissim ac risus amet eget egestas vestibulum. Aliquet etiam eget nulla nulla odio vel.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="column">
+                        <div class="row">
+                            <img src="/assets/photo/people-2.png" alt="">
+                            <div class="cl-info">
+                                <h3>Marvin McKinney</h3>
+                                <p>Administrator</p>
+                                <div class="row-social">
+                                    <img src="/assets/photo/twitter.svg" alt="">
+                                    <img src="/assets/photo/linkedin.svg" alt="">
+                                    <img src="/assets/photo/facebook.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <p>Leo viverra vestibulum amet, scelerisque. Vitae, ultrices mi rhoncus porttitor nulla sed sodales. Curabitur tellus massa, lacinia non at. Lacus, hac fermentum, viverra tortor, eget. Eget egestas eget ultrices vitae.</p>
+                    </div>
+                </div>
+              
+            </div>
+        </section>
+       
+
+        <section class="question">
+            <h1 class="heading">Do you have <span>any question?</span></h1>
+            <div class="btn">order a call</div>
+        </section>
+        <section class="footer">
+            <div class="row">
+                <img src="/assets/logo.svg" alt="">
+                <div class="social-media">
+                    <a href="#"><img src="./assets/photo/twitter.svg" alt=""></a>
+                    <a href="#"><img src="./assets/photo/linkedin.svg" alt=""></a>
+                    <a href="#"><img src="./assets/photo/facebook.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="cl-1">
+                <img src="./assets/logo.svg" alt="">
+                <p>We are one of the leading interior design and remodeling studios available for all of your residential and commercial interior design needs.</p>
+                <div class="sub-text">©  2021 id Studio. All Rights Reserved.</div>
+            </div>
+            <div class="cl-2">
+                <h4>NAVIGATION</h4>
+                <a href="#about">about</a>
+                <a href="#services">services</a>
+                <a href="#portfolio">portfolio</a>
+                <a href="#pricing">pricing</a>
+                <a href="#testimonials">testimonials</a>
+                <div class="social-media">
+                    <a href="#"><img src="/assets/photo/twitter.svg" alt=""></a>
+                    <a href="#"><img src="/assets/photo/linkedin.svg" alt=""></a>
+                    <a href="#"><img src="/assets/photo/facebook.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="cl-3">
+                <h4>CONTACTS</h4>
+
+                <h6>ADRESS</h6>
+                <p>3517 W. Gray St. Utica, Pennsylvania 57867</p>
+
+                <h6>EMAIL</h6>
+                <p>michelle.rivera@idstudio.com</p>
+
+                <h6>PHONES</h6>
+                <p>(808) 555-0111 or (303) 555-0105</p>
+            </div>
+            <div class="sub-text2">©  2021 id Studio. All Rights Reserved.</div>
+        </section>
+
+</body>
+
+</html>
+<script>
+    function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+           dots.style.display = "inline";
+           btnText.innerHTML = "Read more";
+           moreText.style.display = "none";
+  }     else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+             moreText.style.display = "inline";
+  }
+}
+</script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+<script>
+  
+$('.people-say .box-container').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 2,
+  arrows:false,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        infinite: true,
+      }
+    },
+  
+
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
